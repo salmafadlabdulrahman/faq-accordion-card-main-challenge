@@ -1,0 +1,155 @@
+* {
+  font-family: "Kumbh Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #af67e9, #6565e7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-container {
+  background-color: white;
+  border-radius: 20px;
+  max-width: 80vw;
+  margin: 0 auto;
+  padding-bottom: 3em;
+  margin-bottom: 3em;
+}
+
+main {
+  padding-top: 7em;
+}
+
+.image {
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 0 auto;
+}
+
+.mobile-img {
+  position: absolute;
+  bottom: 20px;
+}
+
+.desktop-img,
+.desktop-shadow-img,
+.box-img {
+  display: none;
+}
+
+h2 {
+  color: hsl(238, 29%, 16%);
+  text-align: center;
+  font-size: 2em;
+  padding-top: 1em;
+}
+
+article {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+}
+
+h3 {
+  color: hsl(237, 12%, 33%);
+  font-weight: 400;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+h3:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+p {
+  text-align: left;
+  color: hsl(240, 6%, 50%);
+  font-size: 15px;
+  line-height: 1.5;
+  display: none;
+}
+
+.questions {
+  margin: 0 1.5em;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.question-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-solid {
+  color: hsl(14, 88%, 65%);
+}
+
+.fa-arrow-up {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+@media (min-width: 1100px) {
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 3em;
+  }
+  .mobile-img,
+  .mobile-shadow-img {
+    display: none;
+  }
+  .desktop-img,
+  .desktop-shadow-img {
+    display: block;
+  }
+
+  .info-container {
+    display: flex;
+    gap: 7em;
+    overflow: hidden;
+    align-items: center;
+    background-image: url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 42%;
+  }
+  .image {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-height: 50vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  .box-img {
+    display: block;
+    position: absolute;
+    left: 4em;
+    top: 20em;
+    overflow: visible;
+  }
+  h2 {
+    text-align: left;
+    padding-left: 0.8em;
+  }
+
+  .info {
+    width: 50%;
+  }
+}
