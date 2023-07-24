@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![screencapture-127-0-0-1-5500-2023-07-24-11_53_10](https://github.com/salmafadlabdulrahman/faq-accordion-card-main-challenge/assets/88597694/98cfd975-a5c5-466a-a381-6d6ab896d832)
+![screencapture-127-0-0-1-5500-2023-07-24-12_22_15](https://github.com/salmafadlabdulrahman/faq-accordion-card-main-challenge/assets/88597694/bf3abed2-fae5-4fa9-835d-8b1e7d2f71bc)
 
 
 ### Links
